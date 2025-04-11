@@ -23,7 +23,7 @@ body {
   display: flex;
   flex-direction: column;   /* stack vertically */
   align-items: center;
-  gap: 1px;
+  gap: 0.5px;
   margin-bottom: 2rem;      /* bring logos up from the very bottom */
 }
 
@@ -41,7 +41,7 @@ body {
   display: block;
   color: white;
   text-decoration: none;
-  margin: 1rem;
+  margin: 1rem 0;
   font-weight: bold;
   font-size: 1.5rem;
 }
