@@ -41,7 +41,7 @@ body {
   display: block;
   color: white;
   text-decoration: none;
-  margin: 0.5rem 0;
+  margin: 0.35rem 0;
   font-weight: bold;
   font-size: 1.5rem;
 }
@@ -51,7 +51,7 @@ body {
 }
 
 .content {
-  margin-left: 350px;        /* push content to the right of the fixed sidebar */
+  margin-left: 300px;        /* push content to the right of the fixed sidebar */
   padding: 2rem 3rem 0rem 2rem;
   flex-grow: 1;
   background: white;
