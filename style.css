@@ -2,19 +2,22 @@ body {
   margin: 0;
   font-family: Arial, sans-serif;
   display: flex;
-  min-height: 100vh;
 }
 
 .sidebar {
-  width: 250px;
-  background: #028000;
+  width: 220px;
+  background: #6d946f;
   color: white;
   padding: 2rem 1rem;
-  flex-shrink: 0;
+  height: 100vh;             /* full height */
+  position: fixed;           /* fixes it on the screen */
+  top: 0;
+  left: 0;
+  overflow-y: auto;          /* scroll if sidebar content exceeds height */
 }
 
 .sidebar h1 {
-  font-size: 3rem;
+  font-size: 1.5rem;
   margin-bottom: 2rem;
 }
 
@@ -24,6 +27,7 @@ body {
   text-decoration: none;
   margin: 1rem 0;
   font-weight: bold;
+  font-size: 2rem;
 }
 
 .sidebar a:hover {
@@ -31,11 +35,14 @@ body {
 }
 
 .content {
+  margin-left: 220px;        /* push content to the right of the fixed sidebar */
   padding: 2rem;
   flex-grow: 1;
   background: #f9f9f9;
+  min-height: 100vh;
 }
 
 h2 {
-  color: #028000;
+  color: #6d946f;
 }
+
