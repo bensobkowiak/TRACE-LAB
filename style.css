@@ -6,15 +6,15 @@ body {
 }
 
 .sidebar {
-  width: 220px;
-  background: #004080;
+  width: 250px;
+  background: #028000;
   color: white;
   padding: 2rem 1rem;
   flex-shrink: 0;
 }
 
 .sidebar h1 {
-  font-size: 1.5rem;
+  font-size: 3rem;
   margin-bottom: 2rem;
 }
 
@@ -37,5 +37,5 @@ body {
 }
 
 h2 {
-  color: #004080;
+  color: #028000;
 }
