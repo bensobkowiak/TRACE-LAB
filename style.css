@@ -23,7 +23,7 @@ body {
   display: flex;
   flex-direction: column;   /* stack vertically */
   align-items: center;
-  gap: 10px;
+  gap: 1px;
   margin-bottom: 2rem;      /* bring logos up from the very bottom */
 }
 
@@ -41,7 +41,7 @@ body {
   display: block;
   color: white;
   text-decoration: none;
-  margin: 1rem 0;
+  margin: 1rem;
   font-weight: bold;
   font-size: 1.5rem;
 }
@@ -51,11 +51,11 @@ body {
 }
 
 .content {
-  margin-left: 300px;        /* push content to the right of the fixed sidebar */
+  margin-left: 250px;        /* push content to the right of the fixed sidebar */
   padding: 2rem;
   flex-grow: 1;
   background: #f9f9f9;
-  min-height: 150vh;
+  min-height: 100vh;
   font-family: Arial, Helvetica, sans-serif;
 }
 
