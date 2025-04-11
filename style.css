@@ -8,7 +8,7 @@ body {
   width: 220px;
   background: #6d946f;
   color: white;
-  padding: 2rem 1rem;
+  padding: 2rem;
   height: 100vh;
   position: fixed;
   top: 0;
@@ -21,10 +21,10 @@ body {
 
 .top-right-logos {
   display: flex;
-  justify-content: center;
+  flex-direction: column;   /* stack vertically */
+  align-items: center;
   gap: 10px;
-  margin-top: auto;
-  padding-top: 1rem;
+  margin-bottom: 2rem;      /* bring logos up from the very bottom */
 }
 
 .logo {
@@ -52,7 +52,7 @@ body {
 
 .content {
   margin-left: 300px;        /* push content to the right of the fixed sidebar */
-  padding: 6rem;
+  padding: 2rem;
   flex-grow: 1;
   background: #f9f9f9;
   min-height: 150vh;
