@@ -54,7 +54,7 @@ body {
   margin-left: 350px;        /* push content to the right of the fixed sidebar */
   padding: 2rem;
   flex-grow: 1;
-  background: #f9f9f9;
+  background: white;
   min-height: 100vh;
   font-family: Arial, Helvetica, sans-serif;
 }
