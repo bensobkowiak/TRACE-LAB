@@ -51,7 +51,7 @@ body {
 }
 
 .content {
-  margin-left: 200px;        /* push content to the right of the fixed sidebar */
+  margin-left: 350px;        /* push content to the right of the fixed sidebar */
   padding: 2rem;
   flex-grow: 1;
   background: #f9f9f9;
