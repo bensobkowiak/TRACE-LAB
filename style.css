@@ -8,12 +8,12 @@ body {
   width: 180px;
   background: #6d946f;
   color: white;
-  padding: 2rem;
+  padding: 1.5rem 1rem;         /* reduce horizontal padding */
   height: 100vh;
   position: fixed;
   top: 0;
   left: 0;
-  overflow-y: auto; 
+  overflow-y: auto;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -41,11 +41,12 @@ body {
   display: block;
   color: white;
   text-decoration: none;
-  margin: 0;              /* Remove vertical margin entirely */
-  padding: 2px 0;         /* Small padding for readability */
-  line-height: 1.1;       /* Keep text slightly compact */
+  padding: 4px 0;
+  line-height: 1.2;
   font-weight: bold;
-  font-size: 1.8rem;
+  font-size: 1.3rem;
+  word-wrap: break-word;     /* allow wrapping in narrow sidebars */
+  white-space: normal;
 }
 
 .sidebar a:hover {
