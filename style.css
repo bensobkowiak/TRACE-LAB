@@ -41,10 +41,11 @@ body {
   display: block;
   color: white;
   text-decoration: none;
-  margin: 0.5px 0;
-  line-height: 1;
+  margin: 0;              /* Remove vertical margin entirely */
+  padding: 4px 0;         /* Small padding for readability */
+  line-height: 1.1;       /* Keep text slightly compact */
   font-weight: bold;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
 }
 
 .sidebar a:hover {
