@@ -22,7 +22,7 @@ body {
 .top-right-logos {
   display: flex;
   flex-direction: column;   /* stack vertically */
-  align-items: center;
+  align-items: left;
   gap: 0.25px;
   margin-bottom: 2rem;      /* bring logos up from the very bottom */
 }
