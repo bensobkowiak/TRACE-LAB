@@ -5,7 +5,7 @@ body {
 }
 
 .sidebar {
-  width: 180px;
+  width: 200px;
   background: #6d946f;
   color: white;
   padding: 1.5rem 1rem;         /* reduce horizontal padding */
