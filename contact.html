@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Contact</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    .contact-container {
+      max-width: 600px;
+      margin: 4rem auto;
+      padding: 2rem;
+      background: #f5f5f5;
+      border-radius: 8px;
+    }
+
+    .contact-container h2 {
+      color: #6d946f;
+      margin-bottom: 1rem;
+    }
+
+    .contact-container label {
+      display: block;
+      margin-top: 1rem;
+      font-weight: bold;
+    }
+
+    .contact-container input,
+    .contact-container textarea {
+      width: 100%;
+      padding: 0.5rem;
+      margin-top: 0.3rem;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      font-size: 1rem;
+    }
+
+    .contact-container textarea {
+      height: 150px;
+    }
+
+    .form-buttons {
+      margin-top: 2rem;
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .back-button,
+    .submit-button {
+      padding: 0.5rem 1rem;
+      background-color: #6d946f;
+      color: white;
+      text-decoration: none;
+      border-radius: 4px;
+      font-weight: bold;
+      border: none;
+      cursor: pointer;
+    }
+
+    .back-button:hover,
+    .submit-button:hover {
+      background-color: #5c835e;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="content">
+    <div class="contact-container">
+      <h2>Get in Touch</h2>
+      <p>If you have any questions or are interested in collaborating, feel free to leave a message below:</p>
+
+      <form action="https://formsubmit.co/johnsmith@gmail.com" method="POST">
+        <!-- Spam prevention -->
+        <input type="text" name="_honey" style="display:none">
+
+        <!-- Disable captcha (optional) -->
+        <input type="hidden" name="_captcha" value="false">
+
+        <!-- Success redirect (optional) -->
+        <!-- <input type="hidden" name="_next" value="https://yourdomain.com/thank-you.html"> -->
+
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" placeholder="Your name" required>
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" placeholder="your@email.com" required>
+
+        <label for="message">Message</label>
+        <textarea id="message" name="message" placeholder="Your message" required></textarea>
+
+        <div class="form-buttons">
+          <a href="index.html" class="back-button">← Back to Home</a>
+          <button type="submit" class="submit-button">Send Message</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+</body>
+</html>
