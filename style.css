@@ -50,7 +50,7 @@ body {
   line-height: 1.5;
   font-weight: bold;
   font-size: 1.8rem;
-  word-wrap: break-word;     /* allow wrapping in narrow sidebars */
+  /*word-wrap: break-word;     allow wrapping in narrow sidebars */
   white-space: normal;
 }
 
