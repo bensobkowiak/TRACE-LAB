@@ -47,9 +47,9 @@ body {
   color: white;
   text-decoration: none;
   padding: 4px 0;
-  line-height: 1.2;
+  line-height: 1.5;
   font-weight: bold;
-  font-size: 1.3rem;
+  font-size: 1.8rem;
   word-wrap: break-word;     /* allow wrapping in narrow sidebars */
   white-space: normal;
 }
