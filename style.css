@@ -20,7 +20,7 @@ body {
   text-align: center; 
 }
 
-.top-right-logos {
+.sidebar-logos {
   display: flex;
   flex-direction: column;   /* stack vertically */
   align-items: flex-start;
