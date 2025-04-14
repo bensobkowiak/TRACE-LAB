@@ -39,7 +39,7 @@ body {
 
 .sidebar-links {
   text-align: center; /* ✅ Center the sidebar text only */
-  margin-top: 4rem;
+  margin-top: 3rem;
 }
 
 .sidebar-links a {
@@ -49,7 +49,7 @@ body {
   padding: 20px 0;
   line-height: 1.2;
   font-weight: bold;
-  font-size: 1.8rem;
+  font-size: 1.5rem;
   white-space: normal;
 }
 
