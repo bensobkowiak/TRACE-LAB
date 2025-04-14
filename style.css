@@ -24,7 +24,7 @@ body {
   flex-direction: column;   /* stack vertically */
   align-items: flex-start;
   gap: 0.25px;
-  margin-bottom: 5rem;      /* bring logos up from the very bottom */
+  margin-bottom: 3rem;      /* bring logos up from the very bottom */
 }
 
 .logo {
