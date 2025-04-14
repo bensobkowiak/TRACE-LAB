@@ -24,7 +24,7 @@ body {
   flex-direction: column;   /* stack vertically */
   align-items: flex-start;
   gap: 0.25px;
-  margin-bottom: 3rem;      /* bring logos up from the very bottom */
+  margin-bottom: 2rem;      /* bring logos up from the very bottom */
 }
 
 .logo {
@@ -39,6 +39,7 @@ body {
 
 .sidebar-links {
   text-align: center; /* ✅ Center the sidebar text only */
+  margin-top: 4rem;
 }
 
 .sidebar-links a {
@@ -49,7 +50,6 @@ body {
   line-height: 1.5;
   font-weight: bold;
   font-size: 1.8rem;
-  /*word-wrap: break-word;     allow wrapping in narrow sidebars */
   white-space: normal;
 }
 
